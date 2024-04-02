@@ -5,6 +5,9 @@ class WeinfluColors {
   static const Color brandPrimaryColor = Color.fromRGBO(53, 97, 254, 1);
   static const Color brandSecondaryColor = Color.fromRGBO(243, 246, 255, 1);
   static const Color brandLightColor = Colors.white;
+  static const Color brandLightColorBorder = Color.fromRGBO(210, 228, 255, 1);
+  static const Color brandLightBackgraundColor =
+      Color.fromRGBO(244, 246, 254, 1);
   static const Color brandLightColorOpacity =
       Color.fromRGBO(255, 255, 255, 0.2);
   static const Color brandDarkColor = Colors.black;
