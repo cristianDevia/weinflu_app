@@ -11,6 +11,7 @@ class WeinFluApp extends StatelessWidget {
       title: 'WeinFlu App',
       theme: WeinFluThemes.defaultTheme,
       home: const HomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
