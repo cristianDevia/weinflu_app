@@ -56,13 +56,19 @@ class TopHomePageBody extends StatelessWidget {
             margin: const EdgeInsets.only(top: 56),
             child: Text(
               'Your Budget',
-              style: Theme.of(context).textTheme.displaySmall,
+              style: Theme.of(context)
+                  .textTheme
+                  .displaySmall!
+                  .copyWith(color: WeinfluColors.brandLightColor),
             ),
           ),
           CustomMoneyDisplay(
             amount: 2868000.12,
             padding: const EdgeInsets.only(top: 8, right: 4),
-            amountStyle: Theme.of(context).textTheme.displayLarge!,
+            amountStyle: Theme.of(context)
+                .textTheme
+                .displayLarge!
+                .copyWith(color: WeinfluColors.brandLightColor),
             amountStyleSmall: const TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
